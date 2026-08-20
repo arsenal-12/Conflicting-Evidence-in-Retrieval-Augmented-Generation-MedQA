@@ -159,52 +159,32 @@ The purpose is to avoid regenerating every answer unnecessarily and instead appl
 
 The overall pipeline used in the experiment is shown below.
 
-```text
-                         MEDQA QUESTION
-                               │
-                               ▼
-                    BGE-small Embedding
-                               │
-                               ▼
-                           ChromaDB
-                               │
-                               ▼
-                           Top-5 Docs
-                               │
-                    ┌──────────┴──────────┐
-                    │                     │
-                    ▼                     ▼
-                BASELINE              CONFLICT
-            Original Evidence    Cached Conflict Added
-                    │                     │
-                    └──────────┬──────────┘
-                               ▼
-                       Qwen2.5-1.5B
-                               │
-                               ▼
-                       Generated Answer
-                               │
-                               ▼
-                        Atomic Claims
-                               │
-                               ▼
-                     Evidence Attribution
-                    SUPPORTS / CONTRADICTS /
-                           NEUTRAL
-                               │
-                    ┌──────────┴──────────┐
-                    ▼                     ▼
-               Faithfulness             Safety
-                    │                     │
-                    └──────────┬──────────┘
-                               ▼
-                        Decision Engine
-                         /      |       \
-                        /       |        \
-                       ▼        ▼         ▼
-                 NO_ACTION   ANSWER_   EVIDENCE_
-                             REFINEMENT REFINEMENT
----
+```mermaid
+graph TD
+    A[MedQA Question] --> B[BGE-small Embedding]
+    B --> C[ChromaDB]
+    C --> D[Top-5 Docs]
+
+    D --> E[BASELINE: Original Evidence]
+    D --> F[CONFLICT: Cached Conflict Added]
+
+    E --> G[Qwen2.5-1.5B]
+    F --> G
+
+    G --> H[Generated Answer]
+    H --> I[Atomic Claims]
+    I --> J["Evidence Attribution<br/>SUPPORTS / CONTRADICTS / NEUTRAL"]
+
+    J --> K[Faithfulness]
+    J --> L[Safety]
+
+    K --> M[Decision Engine]
+    L --> M
+
+    M --> N[NO_ACTION]
+    M --> O[ANSWER_REFINEMENT]
+    M --> P[EVIDENCE_REFINEMENT]
+```
 ## System Architecture
 
 The implementation is divided into a set of stages so that retrieval, conflict injection, generation, evaluation and refinement can be examined separately.
