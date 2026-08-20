@@ -959,7 +959,7 @@ If the repository or experimental framework is referenced in future work, please
 ```bibtex
 @mastersthesis{medical_rag_conflict_dissertation,
   author  = {Indhu Shree Prakash},
-  title   = {Evaluating Medical RAG Systems Under Conflicting Retrieved Evidence},
+  title   = {Conflicting Evidence in Retrieval-Augmented Generation: A Controlled Study of Faithfulness–Safety Trade-offs in Medical Question Answering},
   school  = {University of Birmingham},
   year    = {2026}
 }
