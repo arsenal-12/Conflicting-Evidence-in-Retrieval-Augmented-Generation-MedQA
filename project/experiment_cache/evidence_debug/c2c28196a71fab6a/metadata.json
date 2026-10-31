@@ -1,0 +1,13 @@
+{
+  "document_id": "c2c28196a71fab6a",
+  "failure_type": "conflicting",
+  "generator_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "prompt_version": "v1",
+  "temperature": 0.0,
+  "creation_time": "2026-08-06T23:14:16.176482Z",
+  "source_document_hash": "c2c28196a71fab6ac3b4fdcc30513df417ec37ce4a2065f4ba33faddd5233001",
+  "verifier": "LengthRatioVerifier",
+  "verification_passed": true,
+  "verification_score": 1.0,
+  "verification_reason": "Length ratio 1.000 is within acceptable range [0.8, 1.2]. Original: 242 words, Generated: 242 words."
+}

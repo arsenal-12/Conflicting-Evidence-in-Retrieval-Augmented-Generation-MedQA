@@ -1,0 +1,176 @@
+# =============================================================================
+# config.yaml
+#
+# Single source of truth for every configurable parameter in the Phase 1
+# baseline RAG pipeline. Nothing in src/ should hardcode a path, model name,
+# or hyperparameter that appears here -- every module reads its settings
+# from this file (see src/utils.py::load_config).
+#
+# To swap datasets, corpora, embedding models, or generator models
+#  No source code changes should be required.
+# =============================================================================
+
+# -----------------------------------------------------------------------
+# Question dataset configuration
+# -----------------------------------------------------------------------
+# `name` is a free-text label used for logging and result metadata.
+# `loader` selects which parsing strategy QuestionLoader uses. Only "medqa"
+# is implemented in Phase 1, but the loader is designed so that adding
+# "pubmedqa", "natural_questions", or "triviaqa" only requires registering
+# a new parser function in question_loader.py -- main.py and config stay
+# the same shape.
+dataset:
+  name: "MedQA"
+  loader: "medqa"
+  path: "datasets/test.jsonl"
+  sample_size: 100 # set to null to use the full file
+
+# -----------------------------------------------------------------------
+# Retrieval corpus configuration
+# -----------------------------------------------------------------------
+# `loader` selects the parsing strategy used by DocumentLoader. Only
+# "pubmed" is implemented in Phase 1. Swapping to Wikipedia/Arxiv/textbook
+# corpora later only requires a new parser function, not a rewrite of the
+# retrieval pipeline.
+corpus:
+  name: PubMed
+  source: ncbi
+  version: 2026
+  query: "clinical medicine"
+  max_documents: 50000
+  loader: "pubmed"
+  path: "corpus/pubmed_50k.jsonl"
+
+# -----------------------------------------------------------------------
+# Embedding model configuration
+# -----------------------------------------------------------------------
+embedding:
+  model_name: "BAAI/bge-small-en-v1.5"
+  device: "auto" # "auto" | "cpu" | "cuda"
+  batch_size: 32
+  normalize_embeddings: true
+
+# -----------------------------------------------------------------------
+# Vector database configuration
+# -----------------------------------------------------------------------
+vector_store:
+  backend: "chroma"
+  persist_directory: "vector_db/chroma"
+  collection_name: "pubmed_baseline"
+  distance_metric: "cosine" # "cosine" | "l2" | "ip"
+
+# -----------------------------------------------------------------------
+# Retriever configuration
+# -----------------------------------------------------------------------
+retriever:
+  top_k: 5
+
+# -----------------------------------------------------------------------
+# Generator (LLM) configuration
+# -----------------------------------------------------------------------
+generator:
+  model_name: "Qwen/Qwen2.5-1.5B-Instruct"
+  provider: "huggingface"
+  temperature: 0.0
+  max_new_tokens: 512
+  top_p: 1.0
+  device: "auto"
+  prompt_template: |
+    You are a medical question-answering assistant.
+
+    Use ONLY the retrieved context below to answer the question.
+
+    Context:
+    {context}
+
+    Question:
+    {question}
+
+    Instructions:
+
+    - Read every retrieved passage carefully.
+    - Some passages may be incomplete, partially relevant, or contradictory.
+    - If one or more passages contain information relevant to the question, answer using only that information.
+    - If multiple passages disagree, explain the disagreement briefly before giving your best answer based only on the retrieved evidence.
+    - Do not ignore relevant evidence simply because another passage conflicts with it.
+    - Do not use knowledge outside the provided context.
+    - Only answer "I don't know based on the given context." if none of the retrieved passages contain information relevant to the question.
+
+    Answer:
+# -----------------------------------------------------------------------
+# Experiment / output configuration
+# -----------------------------------------------------------------------
+experiment:
+  output_dir: "results"
+  results_filename: "conflicting_test.jsonl"
+# -----------------------------------------------------------------------
+# Logging configuration
+# -----------------------------------------------------------------------
+
+logging:
+  log_dir: "logs"
+  log_filename: "pipeline.log"
+  level: "INFO" # "DEBUG" | "INFO" | "WARNING" | "ERROR"
+
+# -----------------------------------------------------------------------
+# Controlled Retrieval Failure Injection — Phase 2
+# -----------------------------------------------------------------------
+# Controls whether retrieved evidence is modified before generation.
+#
+# Baseline experiment:
+#   enabled: false
+#   mode: "baseline"
+#
+# Conflicting evidence experiment:
+#   enabled: true
+#   mode: "conflicting"
+#
+# The retriever itself remains unchanged. Failure injection happens only
+# after retrieval and before the retrieved context is passed to Generator.
+failure_injection:
+  enabled: true
+  mode: "conflicting"
+  strategy: "append"
+  selection_strategy: "top_rank"
+  intensity: 0.2
+  cache_directory: "experiment_cache/evidence/"
+  strict_cache: false
+
+# -----------------------------------------------------------------------
+# Offline Evidence Generator — Phase 2
+# -----------------------------------------------------------------------
+# Used only when building the conflicting evidence cache.
+#
+# This configuration is read by scripts/build_cache.py.
+# The runtime RAG pipeline does not call Gemini.
+#
+# The Gemini API key must be loaded from GEMINI_API_KEY in the .env file.
+evidence_generator:
+  provider: "huggingface"
+  model: "Qwen/Qwen2.5-1.5B-Instruct"
+  device: "auto"
+  prompt_version: "v2"
+  temperature: 0.0
+  max_new_tokens: 512
+  max_retries: 1
+  retry_delay: 5.0
+
+# -----------------------------------------------------------------------
+# Conflict Verification — Phase 2
+# -----------------------------------------------------------------------
+# Performs lightweight validation of generated conflicting evidence before
+# it is stored in the experiment cache.
+#
+# Phase 2 initially checks that the rewritten document remains reasonably
+# close to the original document length.
+#
+# More advanced semantic verification can be added in later phases.
+conflict_verifier:
+  type: "length_ratio"
+  min_ratio: 0.8
+  max_ratio: 1.2
+
+evaluator:
+     max_new_tokens: 1024
+     max_retries: 0
+     fail_fast: false

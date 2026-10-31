@@ -1,0 +1,1102 @@
+[
+  {
+    "question_id": "medqa_0000",
+    "question": "A patient presents with symptoms consistent with Type 2 diabetes mellitus. Which mechanism best explains the therapeutic effect of metformin in this condition?",
+    "ground_truth_answer": "metformin increases insulin sensitivity in peripheral tissues, which addresses the underlying pathophysiology of Type 2 diabetes mellitus.",
+    "metadata": {
+      "condition": "Type 2 diabetes mellitus",
+      "drug": "metformin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0001",
+    "question": "Which of the following best describes how ACE inhibitors is used to manage Hypertension?",
+    "ground_truth_answer": "ACE inhibitors block conversion of angiotensin I to angiotensin II, which addresses the underlying pathophysiology of Hypertension.",
+    "metadata": {
+      "condition": "Hypertension",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0002",
+    "question": "A 45-year-old patient is diagnosed with Community-acquired pneumonia. What is the primary mechanism of action of amoxicillin, a first-line treatment?",
+    "ground_truth_answer": "amoxicillin inhibits bacterial cell wall synthesis, which addresses the underlying pathophysiology of Community-acquired pneumonia.",
+    "metadata": {
+      "condition": "Community-acquired pneumonia",
+      "drug": "amoxicillin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0003",
+    "question": "In a patient with Atrial fibrillation, warfarin is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "warfarin inhibits vitamin K-dependent clotting factors, which addresses the underlying pathophysiology of Atrial fibrillation.",
+    "metadata": {
+      "condition": "Atrial fibrillation",
+      "drug": "warfarin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0004",
+    "question": "What is the rationale for using inhaled corticosteroids as first-line therapy in Asthma?",
+    "ground_truth_answer": "inhaled corticosteroids reduce airway inflammation, which addresses the underlying pathophysiology of Asthma.",
+    "metadata": {
+      "condition": "Asthma",
+      "drug": "inhaled corticosteroids",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0005",
+    "question": "A patient presents with symptoms consistent with Major depressive disorder. Which mechanism best explains the therapeutic effect of SSRIs in this condition?",
+    "ground_truth_answer": "SSRIs increase synaptic serotonin availability, which addresses the underlying pathophysiology of Major depressive disorder.",
+    "metadata": {
+      "condition": "Major depressive disorder",
+      "drug": "SSRIs",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0006",
+    "question": "Which of the following best describes how proton pump inhibitors is used to manage Peptic ulcer disease?",
+    "ground_truth_answer": "proton pump inhibitors irreversibly inhibit the gastric H+/K+ ATPase, which addresses the underlying pathophysiology of Peptic ulcer disease.",
+    "metadata": {
+      "condition": "Peptic ulcer disease",
+      "drug": "proton pump inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0007",
+    "question": "A 45-year-old patient is diagnosed with Chronic kidney disease. What is the primary mechanism of action of ACE inhibitors, a first-line treatment?",
+    "ground_truth_answer": "ACE inhibitors reduce intraglomerular pressure, which addresses the underlying pathophysiology of Chronic kidney disease.",
+    "metadata": {
+      "condition": "Chronic kidney disease",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0008",
+    "question": "In a patient with Rheumatoid arthritis, methotrexate is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "methotrexate inhibits dihydrofolate reductase, which addresses the underlying pathophysiology of Rheumatoid arthritis.",
+    "metadata": {
+      "condition": "Rheumatoid arthritis",
+      "drug": "methotrexate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0009",
+    "question": "What is the rationale for using levothyroxine as first-line therapy in Hypothyroidism?",
+    "ground_truth_answer": "levothyroxine replaces deficient thyroid hormone, which addresses the underlying pathophysiology of Hypothyroidism.",
+    "metadata": {
+      "condition": "Hypothyroidism",
+      "drug": "levothyroxine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0010",
+    "question": "A patient presents with symptoms consistent with Iron deficiency anemia. Which mechanism best explains the therapeutic effect of oral ferrous sulfate in this condition?",
+    "ground_truth_answer": "oral ferrous sulfate replenishes iron stores for hemoglobin synthesis, which addresses the underlying pathophysiology of Iron deficiency anemia.",
+    "metadata": {
+      "condition": "Iron deficiency anemia",
+      "drug": "oral ferrous sulfate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0011",
+    "question": "Which of the following best describes how triptans is used to manage Migraine?",
+    "ground_truth_answer": "triptans act as serotonin 5-HT1B/1D receptor agonists, which addresses the underlying pathophysiology of Migraine.",
+    "metadata": {
+      "condition": "Migraine",
+      "drug": "triptans",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0012",
+    "question": "A 45-year-old patient is diagnosed with Osteoporosis. What is the primary mechanism of action of bisphosphonates, a first-line treatment?",
+    "ground_truth_answer": "bisphosphonates inhibit osteoclast-mediated bone resorption, which addresses the underlying pathophysiology of Osteoporosis.",
+    "metadata": {
+      "condition": "Osteoporosis",
+      "drug": "bisphosphonates",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0013",
+    "question": "In a patient with Gout, allopurinol is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "allopurinol inhibits xanthine oxidase, which addresses the underlying pathophysiology of Gout.",
+    "metadata": {
+      "condition": "Gout",
+      "drug": "allopurinol",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0014",
+    "question": "What is the rationale for using beta-blockers as first-line therapy in Congestive heart failure?",
+    "ground_truth_answer": "beta-blockers reduce myocardial oxygen demand and remodeling, which addresses the underlying pathophysiology of Congestive heart failure.",
+    "metadata": {
+      "condition": "Congestive heart failure",
+      "drug": "beta-blockers",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0015",
+    "question": "A patient presents with symptoms consistent with Epilepsy. Which mechanism best explains the therapeutic effect of valproate in this condition?",
+    "ground_truth_answer": "valproate increases GABAergic neurotransmission, which addresses the underlying pathophysiology of Epilepsy.",
+    "metadata": {
+      "condition": "Epilepsy",
+      "drug": "valproate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0016",
+    "question": "Which of the following best describes how isoniazid is used to manage Tuberculosis?",
+    "ground_truth_answer": "isoniazid inhibits mycolic acid synthesis, which addresses the underlying pathophysiology of Tuberculosis.",
+    "metadata": {
+      "condition": "Tuberculosis",
+      "drug": "isoniazid",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0017",
+    "question": "A 45-year-old patient is diagnosed with Urinary tract infection. What is the primary mechanism of action of nitrofurantoin, a first-line treatment?",
+    "ground_truth_answer": "nitrofurantoin damages bacterial DNA and ribosomal proteins, which addresses the underlying pathophysiology of Urinary tract infection.",
+    "metadata": {
+      "condition": "Urinary tract infection",
+      "drug": "nitrofurantoin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0018",
+    "question": "In a patient with Systemic lupus erythematosus, hydroxychloroquine is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "hydroxychloroquine modulates immune activation via TLR inhibition, which addresses the underlying pathophysiology of Systemic lupus erythematosus.",
+    "metadata": {
+      "condition": "Systemic lupus erythematosus",
+      "drug": "hydroxychloroquine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0019",
+    "question": "What is the rationale for using levodopa/carbidopa as first-line therapy in Parkinson disease?",
+    "ground_truth_answer": "levodopa/carbidopa restores dopaminergic neurotransmission, which addresses the underlying pathophysiology of Parkinson disease.",
+    "metadata": {
+      "condition": "Parkinson disease",
+      "drug": "levodopa/carbidopa",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0020",
+    "question": "A patient presents with symptoms consistent with Type 2 diabetes mellitus. Which mechanism best explains the therapeutic effect of metformin in this condition?",
+    "ground_truth_answer": "metformin increases insulin sensitivity in peripheral tissues, which addresses the underlying pathophysiology of Type 2 diabetes mellitus.",
+    "metadata": {
+      "condition": "Type 2 diabetes mellitus",
+      "drug": "metformin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0021",
+    "question": "Which of the following best describes how ACE inhibitors is used to manage Hypertension?",
+    "ground_truth_answer": "ACE inhibitors block conversion of angiotensin I to angiotensin II, which addresses the underlying pathophysiology of Hypertension.",
+    "metadata": {
+      "condition": "Hypertension",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0022",
+    "question": "A 45-year-old patient is diagnosed with Community-acquired pneumonia. What is the primary mechanism of action of amoxicillin, a first-line treatment?",
+    "ground_truth_answer": "amoxicillin inhibits bacterial cell wall synthesis, which addresses the underlying pathophysiology of Community-acquired pneumonia.",
+    "metadata": {
+      "condition": "Community-acquired pneumonia",
+      "drug": "amoxicillin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0023",
+    "question": "In a patient with Atrial fibrillation, warfarin is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "warfarin inhibits vitamin K-dependent clotting factors, which addresses the underlying pathophysiology of Atrial fibrillation.",
+    "metadata": {
+      "condition": "Atrial fibrillation",
+      "drug": "warfarin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0024",
+    "question": "What is the rationale for using inhaled corticosteroids as first-line therapy in Asthma?",
+    "ground_truth_answer": "inhaled corticosteroids reduce airway inflammation, which addresses the underlying pathophysiology of Asthma.",
+    "metadata": {
+      "condition": "Asthma",
+      "drug": "inhaled corticosteroids",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0025",
+    "question": "A patient presents with symptoms consistent with Major depressive disorder. Which mechanism best explains the therapeutic effect of SSRIs in this condition?",
+    "ground_truth_answer": "SSRIs increase synaptic serotonin availability, which addresses the underlying pathophysiology of Major depressive disorder.",
+    "metadata": {
+      "condition": "Major depressive disorder",
+      "drug": "SSRIs",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0026",
+    "question": "Which of the following best describes how proton pump inhibitors is used to manage Peptic ulcer disease?",
+    "ground_truth_answer": "proton pump inhibitors irreversibly inhibit the gastric H+/K+ ATPase, which addresses the underlying pathophysiology of Peptic ulcer disease.",
+    "metadata": {
+      "condition": "Peptic ulcer disease",
+      "drug": "proton pump inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0027",
+    "question": "A 45-year-old patient is diagnosed with Chronic kidney disease. What is the primary mechanism of action of ACE inhibitors, a first-line treatment?",
+    "ground_truth_answer": "ACE inhibitors reduce intraglomerular pressure, which addresses the underlying pathophysiology of Chronic kidney disease.",
+    "metadata": {
+      "condition": "Chronic kidney disease",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0028",
+    "question": "In a patient with Rheumatoid arthritis, methotrexate is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "methotrexate inhibits dihydrofolate reductase, which addresses the underlying pathophysiology of Rheumatoid arthritis.",
+    "metadata": {
+      "condition": "Rheumatoid arthritis",
+      "drug": "methotrexate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0029",
+    "question": "What is the rationale for using levothyroxine as first-line therapy in Hypothyroidism?",
+    "ground_truth_answer": "levothyroxine replaces deficient thyroid hormone, which addresses the underlying pathophysiology of Hypothyroidism.",
+    "metadata": {
+      "condition": "Hypothyroidism",
+      "drug": "levothyroxine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0030",
+    "question": "A patient presents with symptoms consistent with Iron deficiency anemia. Which mechanism best explains the therapeutic effect of oral ferrous sulfate in this condition?",
+    "ground_truth_answer": "oral ferrous sulfate replenishes iron stores for hemoglobin synthesis, which addresses the underlying pathophysiology of Iron deficiency anemia.",
+    "metadata": {
+      "condition": "Iron deficiency anemia",
+      "drug": "oral ferrous sulfate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0031",
+    "question": "Which of the following best describes how triptans is used to manage Migraine?",
+    "ground_truth_answer": "triptans act as serotonin 5-HT1B/1D receptor agonists, which addresses the underlying pathophysiology of Migraine.",
+    "metadata": {
+      "condition": "Migraine",
+      "drug": "triptans",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0032",
+    "question": "A 45-year-old patient is diagnosed with Osteoporosis. What is the primary mechanism of action of bisphosphonates, a first-line treatment?",
+    "ground_truth_answer": "bisphosphonates inhibit osteoclast-mediated bone resorption, which addresses the underlying pathophysiology of Osteoporosis.",
+    "metadata": {
+      "condition": "Osteoporosis",
+      "drug": "bisphosphonates",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0033",
+    "question": "In a patient with Gout, allopurinol is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "allopurinol inhibits xanthine oxidase, which addresses the underlying pathophysiology of Gout.",
+    "metadata": {
+      "condition": "Gout",
+      "drug": "allopurinol",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0034",
+    "question": "What is the rationale for using beta-blockers as first-line therapy in Congestive heart failure?",
+    "ground_truth_answer": "beta-blockers reduce myocardial oxygen demand and remodeling, which addresses the underlying pathophysiology of Congestive heart failure.",
+    "metadata": {
+      "condition": "Congestive heart failure",
+      "drug": "beta-blockers",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0035",
+    "question": "A patient presents with symptoms consistent with Epilepsy. Which mechanism best explains the therapeutic effect of valproate in this condition?",
+    "ground_truth_answer": "valproate increases GABAergic neurotransmission, which addresses the underlying pathophysiology of Epilepsy.",
+    "metadata": {
+      "condition": "Epilepsy",
+      "drug": "valproate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0036",
+    "question": "Which of the following best describes how isoniazid is used to manage Tuberculosis?",
+    "ground_truth_answer": "isoniazid inhibits mycolic acid synthesis, which addresses the underlying pathophysiology of Tuberculosis.",
+    "metadata": {
+      "condition": "Tuberculosis",
+      "drug": "isoniazid",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0037",
+    "question": "A 45-year-old patient is diagnosed with Urinary tract infection. What is the primary mechanism of action of nitrofurantoin, a first-line treatment?",
+    "ground_truth_answer": "nitrofurantoin damages bacterial DNA and ribosomal proteins, which addresses the underlying pathophysiology of Urinary tract infection.",
+    "metadata": {
+      "condition": "Urinary tract infection",
+      "drug": "nitrofurantoin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0038",
+    "question": "In a patient with Systemic lupus erythematosus, hydroxychloroquine is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "hydroxychloroquine modulates immune activation via TLR inhibition, which addresses the underlying pathophysiology of Systemic lupus erythematosus.",
+    "metadata": {
+      "condition": "Systemic lupus erythematosus",
+      "drug": "hydroxychloroquine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0039",
+    "question": "What is the rationale for using levodopa/carbidopa as first-line therapy in Parkinson disease?",
+    "ground_truth_answer": "levodopa/carbidopa restores dopaminergic neurotransmission, which addresses the underlying pathophysiology of Parkinson disease.",
+    "metadata": {
+      "condition": "Parkinson disease",
+      "drug": "levodopa/carbidopa",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0040",
+    "question": "A patient presents with symptoms consistent with Type 2 diabetes mellitus. Which mechanism best explains the therapeutic effect of metformin in this condition?",
+    "ground_truth_answer": "metformin increases insulin sensitivity in peripheral tissues, which addresses the underlying pathophysiology of Type 2 diabetes mellitus.",
+    "metadata": {
+      "condition": "Type 2 diabetes mellitus",
+      "drug": "metformin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0041",
+    "question": "Which of the following best describes how ACE inhibitors is used to manage Hypertension?",
+    "ground_truth_answer": "ACE inhibitors block conversion of angiotensin I to angiotensin II, which addresses the underlying pathophysiology of Hypertension.",
+    "metadata": {
+      "condition": "Hypertension",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0042",
+    "question": "A 45-year-old patient is diagnosed with Community-acquired pneumonia. What is the primary mechanism of action of amoxicillin, a first-line treatment?",
+    "ground_truth_answer": "amoxicillin inhibits bacterial cell wall synthesis, which addresses the underlying pathophysiology of Community-acquired pneumonia.",
+    "metadata": {
+      "condition": "Community-acquired pneumonia",
+      "drug": "amoxicillin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0043",
+    "question": "In a patient with Atrial fibrillation, warfarin is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "warfarin inhibits vitamin K-dependent clotting factors, which addresses the underlying pathophysiology of Atrial fibrillation.",
+    "metadata": {
+      "condition": "Atrial fibrillation",
+      "drug": "warfarin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0044",
+    "question": "What is the rationale for using inhaled corticosteroids as first-line therapy in Asthma?",
+    "ground_truth_answer": "inhaled corticosteroids reduce airway inflammation, which addresses the underlying pathophysiology of Asthma.",
+    "metadata": {
+      "condition": "Asthma",
+      "drug": "inhaled corticosteroids",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0045",
+    "question": "A patient presents with symptoms consistent with Major depressive disorder. Which mechanism best explains the therapeutic effect of SSRIs in this condition?",
+    "ground_truth_answer": "SSRIs increase synaptic serotonin availability, which addresses the underlying pathophysiology of Major depressive disorder.",
+    "metadata": {
+      "condition": "Major depressive disorder",
+      "drug": "SSRIs",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0046",
+    "question": "Which of the following best describes how proton pump inhibitors is used to manage Peptic ulcer disease?",
+    "ground_truth_answer": "proton pump inhibitors irreversibly inhibit the gastric H+/K+ ATPase, which addresses the underlying pathophysiology of Peptic ulcer disease.",
+    "metadata": {
+      "condition": "Peptic ulcer disease",
+      "drug": "proton pump inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0047",
+    "question": "A 45-year-old patient is diagnosed with Chronic kidney disease. What is the primary mechanism of action of ACE inhibitors, a first-line treatment?",
+    "ground_truth_answer": "ACE inhibitors reduce intraglomerular pressure, which addresses the underlying pathophysiology of Chronic kidney disease.",
+    "metadata": {
+      "condition": "Chronic kidney disease",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0048",
+    "question": "In a patient with Rheumatoid arthritis, methotrexate is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "methotrexate inhibits dihydrofolate reductase, which addresses the underlying pathophysiology of Rheumatoid arthritis.",
+    "metadata": {
+      "condition": "Rheumatoid arthritis",
+      "drug": "methotrexate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0049",
+    "question": "What is the rationale for using levothyroxine as first-line therapy in Hypothyroidism?",
+    "ground_truth_answer": "levothyroxine replaces deficient thyroid hormone, which addresses the underlying pathophysiology of Hypothyroidism.",
+    "metadata": {
+      "condition": "Hypothyroidism",
+      "drug": "levothyroxine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0050",
+    "question": "A patient presents with symptoms consistent with Iron deficiency anemia. Which mechanism best explains the therapeutic effect of oral ferrous sulfate in this condition?",
+    "ground_truth_answer": "oral ferrous sulfate replenishes iron stores for hemoglobin synthesis, which addresses the underlying pathophysiology of Iron deficiency anemia.",
+    "metadata": {
+      "condition": "Iron deficiency anemia",
+      "drug": "oral ferrous sulfate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0051",
+    "question": "Which of the following best describes how triptans is used to manage Migraine?",
+    "ground_truth_answer": "triptans act as serotonin 5-HT1B/1D receptor agonists, which addresses the underlying pathophysiology of Migraine.",
+    "metadata": {
+      "condition": "Migraine",
+      "drug": "triptans",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0052",
+    "question": "A 45-year-old patient is diagnosed with Osteoporosis. What is the primary mechanism of action of bisphosphonates, a first-line treatment?",
+    "ground_truth_answer": "bisphosphonates inhibit osteoclast-mediated bone resorption, which addresses the underlying pathophysiology of Osteoporosis.",
+    "metadata": {
+      "condition": "Osteoporosis",
+      "drug": "bisphosphonates",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0053",
+    "question": "In a patient with Gout, allopurinol is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "allopurinol inhibits xanthine oxidase, which addresses the underlying pathophysiology of Gout.",
+    "metadata": {
+      "condition": "Gout",
+      "drug": "allopurinol",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0054",
+    "question": "What is the rationale for using beta-blockers as first-line therapy in Congestive heart failure?",
+    "ground_truth_answer": "beta-blockers reduce myocardial oxygen demand and remodeling, which addresses the underlying pathophysiology of Congestive heart failure.",
+    "metadata": {
+      "condition": "Congestive heart failure",
+      "drug": "beta-blockers",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0055",
+    "question": "A patient presents with symptoms consistent with Epilepsy. Which mechanism best explains the therapeutic effect of valproate in this condition?",
+    "ground_truth_answer": "valproate increases GABAergic neurotransmission, which addresses the underlying pathophysiology of Epilepsy.",
+    "metadata": {
+      "condition": "Epilepsy",
+      "drug": "valproate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0056",
+    "question": "Which of the following best describes how isoniazid is used to manage Tuberculosis?",
+    "ground_truth_answer": "isoniazid inhibits mycolic acid synthesis, which addresses the underlying pathophysiology of Tuberculosis.",
+    "metadata": {
+      "condition": "Tuberculosis",
+      "drug": "isoniazid",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0057",
+    "question": "A 45-year-old patient is diagnosed with Urinary tract infection. What is the primary mechanism of action of nitrofurantoin, a first-line treatment?",
+    "ground_truth_answer": "nitrofurantoin damages bacterial DNA and ribosomal proteins, which addresses the underlying pathophysiology of Urinary tract infection.",
+    "metadata": {
+      "condition": "Urinary tract infection",
+      "drug": "nitrofurantoin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0058",
+    "question": "In a patient with Systemic lupus erythematosus, hydroxychloroquine is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "hydroxychloroquine modulates immune activation via TLR inhibition, which addresses the underlying pathophysiology of Systemic lupus erythematosus.",
+    "metadata": {
+      "condition": "Systemic lupus erythematosus",
+      "drug": "hydroxychloroquine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0059",
+    "question": "What is the rationale for using levodopa/carbidopa as first-line therapy in Parkinson disease?",
+    "ground_truth_answer": "levodopa/carbidopa restores dopaminergic neurotransmission, which addresses the underlying pathophysiology of Parkinson disease.",
+    "metadata": {
+      "condition": "Parkinson disease",
+      "drug": "levodopa/carbidopa",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0060",
+    "question": "A patient presents with symptoms consistent with Type 2 diabetes mellitus. Which mechanism best explains the therapeutic effect of metformin in this condition?",
+    "ground_truth_answer": "metformin increases insulin sensitivity in peripheral tissues, which addresses the underlying pathophysiology of Type 2 diabetes mellitus.",
+    "metadata": {
+      "condition": "Type 2 diabetes mellitus",
+      "drug": "metformin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0061",
+    "question": "Which of the following best describes how ACE inhibitors is used to manage Hypertension?",
+    "ground_truth_answer": "ACE inhibitors block conversion of angiotensin I to angiotensin II, which addresses the underlying pathophysiology of Hypertension.",
+    "metadata": {
+      "condition": "Hypertension",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0062",
+    "question": "A 45-year-old patient is diagnosed with Community-acquired pneumonia. What is the primary mechanism of action of amoxicillin, a first-line treatment?",
+    "ground_truth_answer": "amoxicillin inhibits bacterial cell wall synthesis, which addresses the underlying pathophysiology of Community-acquired pneumonia.",
+    "metadata": {
+      "condition": "Community-acquired pneumonia",
+      "drug": "amoxicillin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0063",
+    "question": "In a patient with Atrial fibrillation, warfarin is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "warfarin inhibits vitamin K-dependent clotting factors, which addresses the underlying pathophysiology of Atrial fibrillation.",
+    "metadata": {
+      "condition": "Atrial fibrillation",
+      "drug": "warfarin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0064",
+    "question": "What is the rationale for using inhaled corticosteroids as first-line therapy in Asthma?",
+    "ground_truth_answer": "inhaled corticosteroids reduce airway inflammation, which addresses the underlying pathophysiology of Asthma.",
+    "metadata": {
+      "condition": "Asthma",
+      "drug": "inhaled corticosteroids",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0065",
+    "question": "A patient presents with symptoms consistent with Major depressive disorder. Which mechanism best explains the therapeutic effect of SSRIs in this condition?",
+    "ground_truth_answer": "SSRIs increase synaptic serotonin availability, which addresses the underlying pathophysiology of Major depressive disorder.",
+    "metadata": {
+      "condition": "Major depressive disorder",
+      "drug": "SSRIs",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0066",
+    "question": "Which of the following best describes how proton pump inhibitors is used to manage Peptic ulcer disease?",
+    "ground_truth_answer": "proton pump inhibitors irreversibly inhibit the gastric H+/K+ ATPase, which addresses the underlying pathophysiology of Peptic ulcer disease.",
+    "metadata": {
+      "condition": "Peptic ulcer disease",
+      "drug": "proton pump inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0067",
+    "question": "A 45-year-old patient is diagnosed with Chronic kidney disease. What is the primary mechanism of action of ACE inhibitors, a first-line treatment?",
+    "ground_truth_answer": "ACE inhibitors reduce intraglomerular pressure, which addresses the underlying pathophysiology of Chronic kidney disease.",
+    "metadata": {
+      "condition": "Chronic kidney disease",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0068",
+    "question": "In a patient with Rheumatoid arthritis, methotrexate is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "methotrexate inhibits dihydrofolate reductase, which addresses the underlying pathophysiology of Rheumatoid arthritis.",
+    "metadata": {
+      "condition": "Rheumatoid arthritis",
+      "drug": "methotrexate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0069",
+    "question": "What is the rationale for using levothyroxine as first-line therapy in Hypothyroidism?",
+    "ground_truth_answer": "levothyroxine replaces deficient thyroid hormone, which addresses the underlying pathophysiology of Hypothyroidism.",
+    "metadata": {
+      "condition": "Hypothyroidism",
+      "drug": "levothyroxine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0070",
+    "question": "A patient presents with symptoms consistent with Iron deficiency anemia. Which mechanism best explains the therapeutic effect of oral ferrous sulfate in this condition?",
+    "ground_truth_answer": "oral ferrous sulfate replenishes iron stores for hemoglobin synthesis, which addresses the underlying pathophysiology of Iron deficiency anemia.",
+    "metadata": {
+      "condition": "Iron deficiency anemia",
+      "drug": "oral ferrous sulfate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0071",
+    "question": "Which of the following best describes how triptans is used to manage Migraine?",
+    "ground_truth_answer": "triptans act as serotonin 5-HT1B/1D receptor agonists, which addresses the underlying pathophysiology of Migraine.",
+    "metadata": {
+      "condition": "Migraine",
+      "drug": "triptans",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0072",
+    "question": "A 45-year-old patient is diagnosed with Osteoporosis. What is the primary mechanism of action of bisphosphonates, a first-line treatment?",
+    "ground_truth_answer": "bisphosphonates inhibit osteoclast-mediated bone resorption, which addresses the underlying pathophysiology of Osteoporosis.",
+    "metadata": {
+      "condition": "Osteoporosis",
+      "drug": "bisphosphonates",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0073",
+    "question": "In a patient with Gout, allopurinol is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "allopurinol inhibits xanthine oxidase, which addresses the underlying pathophysiology of Gout.",
+    "metadata": {
+      "condition": "Gout",
+      "drug": "allopurinol",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0074",
+    "question": "What is the rationale for using beta-blockers as first-line therapy in Congestive heart failure?",
+    "ground_truth_answer": "beta-blockers reduce myocardial oxygen demand and remodeling, which addresses the underlying pathophysiology of Congestive heart failure.",
+    "metadata": {
+      "condition": "Congestive heart failure",
+      "drug": "beta-blockers",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0075",
+    "question": "A patient presents with symptoms consistent with Epilepsy. Which mechanism best explains the therapeutic effect of valproate in this condition?",
+    "ground_truth_answer": "valproate increases GABAergic neurotransmission, which addresses the underlying pathophysiology of Epilepsy.",
+    "metadata": {
+      "condition": "Epilepsy",
+      "drug": "valproate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0076",
+    "question": "Which of the following best describes how isoniazid is used to manage Tuberculosis?",
+    "ground_truth_answer": "isoniazid inhibits mycolic acid synthesis, which addresses the underlying pathophysiology of Tuberculosis.",
+    "metadata": {
+      "condition": "Tuberculosis",
+      "drug": "isoniazid",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0077",
+    "question": "A 45-year-old patient is diagnosed with Urinary tract infection. What is the primary mechanism of action of nitrofurantoin, a first-line treatment?",
+    "ground_truth_answer": "nitrofurantoin damages bacterial DNA and ribosomal proteins, which addresses the underlying pathophysiology of Urinary tract infection.",
+    "metadata": {
+      "condition": "Urinary tract infection",
+      "drug": "nitrofurantoin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0078",
+    "question": "In a patient with Systemic lupus erythematosus, hydroxychloroquine is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "hydroxychloroquine modulates immune activation via TLR inhibition, which addresses the underlying pathophysiology of Systemic lupus erythematosus.",
+    "metadata": {
+      "condition": "Systemic lupus erythematosus",
+      "drug": "hydroxychloroquine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0079",
+    "question": "What is the rationale for using levodopa/carbidopa as first-line therapy in Parkinson disease?",
+    "ground_truth_answer": "levodopa/carbidopa restores dopaminergic neurotransmission, which addresses the underlying pathophysiology of Parkinson disease.",
+    "metadata": {
+      "condition": "Parkinson disease",
+      "drug": "levodopa/carbidopa",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0080",
+    "question": "A patient presents with symptoms consistent with Type 2 diabetes mellitus. Which mechanism best explains the therapeutic effect of metformin in this condition?",
+    "ground_truth_answer": "metformin increases insulin sensitivity in peripheral tissues, which addresses the underlying pathophysiology of Type 2 diabetes mellitus.",
+    "metadata": {
+      "condition": "Type 2 diabetes mellitus",
+      "drug": "metformin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0081",
+    "question": "Which of the following best describes how ACE inhibitors is used to manage Hypertension?",
+    "ground_truth_answer": "ACE inhibitors block conversion of angiotensin I to angiotensin II, which addresses the underlying pathophysiology of Hypertension.",
+    "metadata": {
+      "condition": "Hypertension",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0082",
+    "question": "A 45-year-old patient is diagnosed with Community-acquired pneumonia. What is the primary mechanism of action of amoxicillin, a first-line treatment?",
+    "ground_truth_answer": "amoxicillin inhibits bacterial cell wall synthesis, which addresses the underlying pathophysiology of Community-acquired pneumonia.",
+    "metadata": {
+      "condition": "Community-acquired pneumonia",
+      "drug": "amoxicillin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0083",
+    "question": "In a patient with Atrial fibrillation, warfarin is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "warfarin inhibits vitamin K-dependent clotting factors, which addresses the underlying pathophysiology of Atrial fibrillation.",
+    "metadata": {
+      "condition": "Atrial fibrillation",
+      "drug": "warfarin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0084",
+    "question": "What is the rationale for using inhaled corticosteroids as first-line therapy in Asthma?",
+    "ground_truth_answer": "inhaled corticosteroids reduce airway inflammation, which addresses the underlying pathophysiology of Asthma.",
+    "metadata": {
+      "condition": "Asthma",
+      "drug": "inhaled corticosteroids",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0085",
+    "question": "A patient presents with symptoms consistent with Major depressive disorder. Which mechanism best explains the therapeutic effect of SSRIs in this condition?",
+    "ground_truth_answer": "SSRIs increase synaptic serotonin availability, which addresses the underlying pathophysiology of Major depressive disorder.",
+    "metadata": {
+      "condition": "Major depressive disorder",
+      "drug": "SSRIs",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0086",
+    "question": "Which of the following best describes how proton pump inhibitors is used to manage Peptic ulcer disease?",
+    "ground_truth_answer": "proton pump inhibitors irreversibly inhibit the gastric H+/K+ ATPase, which addresses the underlying pathophysiology of Peptic ulcer disease.",
+    "metadata": {
+      "condition": "Peptic ulcer disease",
+      "drug": "proton pump inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0087",
+    "question": "A 45-year-old patient is diagnosed with Chronic kidney disease. What is the primary mechanism of action of ACE inhibitors, a first-line treatment?",
+    "ground_truth_answer": "ACE inhibitors reduce intraglomerular pressure, which addresses the underlying pathophysiology of Chronic kidney disease.",
+    "metadata": {
+      "condition": "Chronic kidney disease",
+      "drug": "ACE inhibitors",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0088",
+    "question": "In a patient with Rheumatoid arthritis, methotrexate is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "methotrexate inhibits dihydrofolate reductase, which addresses the underlying pathophysiology of Rheumatoid arthritis.",
+    "metadata": {
+      "condition": "Rheumatoid arthritis",
+      "drug": "methotrexate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0089",
+    "question": "What is the rationale for using levothyroxine as first-line therapy in Hypothyroidism?",
+    "ground_truth_answer": "levothyroxine replaces deficient thyroid hormone, which addresses the underlying pathophysiology of Hypothyroidism.",
+    "metadata": {
+      "condition": "Hypothyroidism",
+      "drug": "levothyroxine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0090",
+    "question": "A patient presents with symptoms consistent with Iron deficiency anemia. Which mechanism best explains the therapeutic effect of oral ferrous sulfate in this condition?",
+    "ground_truth_answer": "oral ferrous sulfate replenishes iron stores for hemoglobin synthesis, which addresses the underlying pathophysiology of Iron deficiency anemia.",
+    "metadata": {
+      "condition": "Iron deficiency anemia",
+      "drug": "oral ferrous sulfate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0091",
+    "question": "Which of the following best describes how triptans is used to manage Migraine?",
+    "ground_truth_answer": "triptans act as serotonin 5-HT1B/1D receptor agonists, which addresses the underlying pathophysiology of Migraine.",
+    "metadata": {
+      "condition": "Migraine",
+      "drug": "triptans",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0092",
+    "question": "A 45-year-old patient is diagnosed with Osteoporosis. What is the primary mechanism of action of bisphosphonates, a first-line treatment?",
+    "ground_truth_answer": "bisphosphonates inhibit osteoclast-mediated bone resorption, which addresses the underlying pathophysiology of Osteoporosis.",
+    "metadata": {
+      "condition": "Osteoporosis",
+      "drug": "bisphosphonates",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0093",
+    "question": "In a patient with Gout, allopurinol is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "allopurinol inhibits xanthine oxidase, which addresses the underlying pathophysiology of Gout.",
+    "metadata": {
+      "condition": "Gout",
+      "drug": "allopurinol",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0094",
+    "question": "What is the rationale for using beta-blockers as first-line therapy in Congestive heart failure?",
+    "ground_truth_answer": "beta-blockers reduce myocardial oxygen demand and remodeling, which addresses the underlying pathophysiology of Congestive heart failure.",
+    "metadata": {
+      "condition": "Congestive heart failure",
+      "drug": "beta-blockers",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0095",
+    "question": "A patient presents with symptoms consistent with Epilepsy. Which mechanism best explains the therapeutic effect of valproate in this condition?",
+    "ground_truth_answer": "valproate increases GABAergic neurotransmission, which addresses the underlying pathophysiology of Epilepsy.",
+    "metadata": {
+      "condition": "Epilepsy",
+      "drug": "valproate",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0096",
+    "question": "Which of the following best describes how isoniazid is used to manage Tuberculosis?",
+    "ground_truth_answer": "isoniazid inhibits mycolic acid synthesis, which addresses the underlying pathophysiology of Tuberculosis.",
+    "metadata": {
+      "condition": "Tuberculosis",
+      "drug": "isoniazid",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0097",
+    "question": "A 45-year-old patient is diagnosed with Urinary tract infection. What is the primary mechanism of action of nitrofurantoin, a first-line treatment?",
+    "ground_truth_answer": "nitrofurantoin damages bacterial DNA and ribosomal proteins, which addresses the underlying pathophysiology of Urinary tract infection.",
+    "metadata": {
+      "condition": "Urinary tract infection",
+      "drug": "nitrofurantoin",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0098",
+    "question": "In a patient with Systemic lupus erythematosus, hydroxychloroquine is prescribed. Explain the pharmacological basis for its use.",
+    "ground_truth_answer": "hydroxychloroquine modulates immune activation via TLR inhibition, which addresses the underlying pathophysiology of Systemic lupus erythematosus.",
+    "metadata": {
+      "condition": "Systemic lupus erythematosus",
+      "drug": "hydroxychloroquine",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  },
+  {
+    "question_id": "medqa_0099",
+    "question": "What is the rationale for using levodopa/carbidopa as first-line therapy in Parkinson disease?",
+    "ground_truth_answer": "levodopa/carbidopa restores dopaminergic neurotransmission, which addresses the underlying pathophysiology of Parkinson disease.",
+    "metadata": {
+      "condition": "Parkinson disease",
+      "drug": "levodopa/carbidopa",
+      "split": "dev",
+      "source_dataset": "MedQA (synthetic sample for Phase 1 development)"
+    }
+  }
+]

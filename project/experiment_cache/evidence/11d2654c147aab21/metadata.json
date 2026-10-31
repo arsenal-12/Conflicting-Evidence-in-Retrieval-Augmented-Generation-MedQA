@@ -1,0 +1,13 @@
+{
+  "document_id": "11d2654c147aab21",
+  "failure_type": "conflicting",
+  "generator_model": "gemini-flash-latest",
+  "prompt_version": "v1",
+  "temperature": 0.1,
+  "creation_time": "2026-08-05T07:21:43.042553Z",
+  "source_document_hash": "11d2654c147aab21ad91cbd8f0b576d3c15159570d7566361cf2b6f5095c0d3c",
+  "verifier": "LengthRatioVerifier",
+  "verification_passed": true,
+  "verification_score": 1.0,
+  "verification_reason": "Length ratio 1.000 is within acceptable range [0.8, 1.2]. Original: 62 words, Generated: 62 words."
+}

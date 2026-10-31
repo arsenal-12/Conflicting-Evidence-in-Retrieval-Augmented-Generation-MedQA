@@ -1,0 +1,6 @@
+comparison,metric,test,p_value,significance
+Baseline vs Conflict,Faithfulness,Exact McNemar,0.00048828125,***
+Baseline vs Conflict,Safety,Exact McNemar,1.0,ns
+Baseline vs Conflict,Supported claims %,Wilcoxon signed-rank,0.034173786640167236,*
+Before vs After Refinement,Faithfulness,Exact McNemar,1.0,ns
+Before vs After Refinement,Supported claims %,Wilcoxon signed-rank,0.5,ns

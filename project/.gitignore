@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Downloaded Hugging Face models
+hub/
+
+# Chroma vector database
+vector_db/
+
+# Logs
+logs/
+
+# Generated experiment outputs
+experiments/results/
+
+# OS / Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
